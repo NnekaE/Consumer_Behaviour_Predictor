@@ -40,7 +40,7 @@ The model's ability to achieve 100% recall for the "Owner" class carries signifi
 ### Decision Tree Analysis
 Below is the visualization of the primary Decision Tree used in this project. It highlights how the model utilizes **Income** and **Lot Size** to categorize ownership.
 
-![Decision Tree Visualization](decision_tree.png)
+![Decision Tree Visualization]( Decision Tree.png)
 
 
 ## Technologies Used
