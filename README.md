@@ -40,6 +40,9 @@ The model's ability to achieve 100% recall for the "Owner" class carries signifi
 ### Decision Tree Analysis
 Below is the visualization of the primary Decision Tree used in this project. It highlights how the model utilizes **Income** and **Lot Size** to categorize ownership.
 
+### Income-Based Decision Logic
+The decision tree identifies Income as the primary splitting criterion for predicting ownership. Customers with an annual income below $59,700 are classified as Nonowners, while those exceeding this threshold are further analyzed by Lot Size to determine ownership. This logic highlights income as the most significant filter in the consumer behavior model.
+
 ![Decision Tree Visualization](Decision_Tree.Png)
 
 ### Feature Importance
@@ -47,6 +50,8 @@ This plot ranks the demographic drivers of consumer behavior, identifying **Inco
 
 ![Feature Importance Plot](Feature%20Important%20Plot.Png)
 
+## Conclusion
+This project successfully demonstrates the power of Ensemble Learning in predicting consumer behavior. By evolving from a basic Decision Tree to a highly optimized Gradient Boosting model, the analysis achieved a near perfect 98% accuracy. The findings clearly illustrate that high-income, well educated segments are the most likely owners, providing a data driven roadmap for more efficient and profitable marketing strategies.
 
 ## Technologies Used
  
