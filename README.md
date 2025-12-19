@@ -1,4 +1,4 @@
-## Consumer Behavior Predictor
+# Consumer Behavior Predictor
 
 A Data Mining project utilizing Python to build and evaluate Decision Tree, Random Forest, and Gradient Boosting models. This analysis focuses on predictive classification using the scikit-learn and dmba libraries.
 
@@ -21,7 +21,7 @@ The goal of this project was to utilize ensemble learning techniques, specifical
 
 **High Training Accuracy**: The fully grown Decision Tree achieved a perfect **1.0000 Accuracy** on the training dataset, correctly classifying all 19 samples.
 
-**Strong Validation Performance**: On unseen data (validation set), the model maintained an **98% Accuracy** rate.
+**Strong Validation Performance**: On unseen data (validation set), the model maintained a **98% Accuracy** rate.
 
 **Classification Balance**: The model correctly identified 100% of the "Owners" in the validation set, though it had a slight tendency to misclassify one "Nonowner" as an "Owner".
 
@@ -34,6 +34,14 @@ The model's ability to achieve 100% recall for the "Owner" class carries signifi
 **Optimized Marketing Spend**: While the model has a slight tendency to misclassify one "Nonowner" as an "Owner" (a False Positive), this is a low-risk error. It is generally more cost-effective to send an extra marketing communication than to miss a guaranteed conversion.
 
 **Actionable Customer Profiling**: Identifying Income (with a $59,700 threshold) and Education as the primary drivers allows management to refine their customer personas and focus resources on the most profitable segments.
+
+## Visualizations
+
+### Decision Tree Analysis
+Below is the visualization of the primary Decision Tree used in this project. It highlights how the model utilizes **Income** and **Lot Size** to categorize ownership.
+
+![Decision Tree Visualization](decision_tree.png)
+
 
 ## Technologies Used
  
